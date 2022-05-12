@@ -29,6 +29,7 @@ def draw
         puts "あなたの勝ちです"
       else
         first_game = true
+        first_game = start_action
       end
     else
       puts "あっち向いて〜"
@@ -44,6 +45,7 @@ def draw
         puts "あなたの負けです"
       else
         first_game = true
+        first_game = start_action
       end
     end
   elsif player == 3
@@ -131,4 +133,3 @@ first_game = true
 while
   first_game = start_action
 end
-
